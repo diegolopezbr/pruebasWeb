@@ -1,0 +1,4 @@
+Docker:
+docker build -t pruebas-web . 
+docker run -d -p 8080:80 --name pruebas-web pruebas-web
+
